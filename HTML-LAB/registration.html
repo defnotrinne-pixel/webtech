@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+
+    <h1>Student Registration Form</h1>
+    <hr>
+
+    <form>
+
+        <label>Full Name:</label><br>
+        <input type="text" name="fullname" placeholder="exg. Juan Dela Cruz" required minlength="2" maxlength="100"><br><br>
+
+        <label>Student ID:</label><br>
+        <input type="text" name="studentid" placeholder="exg. 2024-00001" required maxlength="20"><br><br>
+
+        <label>Email:</label><br>
+        <input type="email" name="email" placeholder="exg. juan@uc.edu.ph" required><br><br>
+
+        <label>Password:</label><br>
+        <input type ="password" name="password" placeholder="Min. 8 characters" required minlength="8"><br><br>
+
+        <label>Birthday</label><br>
+        <input type="date" name="birthday" required><br><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" name="gender" value="male" required> Male
+        <input type="radio" name="gender" value="female" required> Female
+        <input type="radio" name="gender" value ="other" required> Other<br><br>
+
+        <label>Program</label><br>
+        <select name ="program" required>
+            <option value="">Select a program</option>
+            <option value="BSIT">Bachelor of Science in Information Technology</option>
+            <option value="BSCS">Bachelor of Science in Computer Science</option>
+            <optioin value="BSECE">Bachelor of Science in Electronics Engineering</option>
+            <option value="BSEE">Bachelor of Science in Electrical Engineering</option>
+        </select><br><br>
+
+        <label>Hobbies:</label><br>
+        <input type="checkbox" name="hobbies" value="programming"> Programming
+        <input type="checkbox" name="hobbies" value="digital art"> Digital art
+        <input type="checkbox" name="hobbies" value="music"> Music
+        <input type="checkbox" name="hobbies" value="gaming"> gaming><br><br>
+
+        <label>Adress:</label><br>
+        <input type="text" name="address" placeholder="exg.Baguio City,Benguet" required maxlength="200"><br><br>
+
+        <label>Comments:</label><br>
+        <textarea name="comments" rows="4" cols="40" placeholder="Any additional info.."></textarea><br><br>
+        
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+    
+</body>
+</html>
