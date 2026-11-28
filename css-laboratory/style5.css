@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #fff0f5;
     color: #222222;
 }
 
@@ -14,7 +14,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #0b2a5b;
+    background-color: #c2185b;
     padding: 15px 30px;
 }
 
@@ -47,12 +47,12 @@ body {
     max-width: 320px;
     background-color: white;
     padding: 20px;
-    border: 1px solid #cccccc;
+    border: 1px solid #f3c1d6;
     border-radius: 8px;
 }
 
 .card h2 {
-    color: #0b2a5b;
+    color: #880e4f;
     color: white;
 }
 
@@ -61,4 +61,21 @@ body {
         flex-direction: column;
         gap: 10px;
     }
+}
+
+.center-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    margin: 0 30px 30px;
+    background-color: #fde2ec;
+    border-radius: 8px;
+}
+
+.footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #c2185b;
+    color: white;
 }

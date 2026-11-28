@@ -1,6 +1,6 @@
 /* 4 colors: #f5f7fa background, #0b2a5b dark blue, #1b5e20 dark green, #145da0 link blue */
 body{
-    background: #f5f7fa;
+    background: #fff0f5;
     color: #222222;
     font-family: Arial, sans-serif;
     padding: 20px;
@@ -8,13 +8,13 @@ body{
 
 h1 {
     font-size: 32px;
-    color: #0b2a5b;
+    color: #880e4f;
     text-align: center;
 }
 
 h2 {
     font-size: 22px;
-    colors: #1b5e20;
+    color: #ad1457;
 }
 
 p{
@@ -27,11 +27,11 @@ li {
 }
 
 a {
-    color: #145da0;
+    color: #c2185b;
     text-decoration: none;
 }
 
 a:hover {
     text-decoration: underline;
-    color: #0b2a5b;
+    color: #880e4f;
 }
