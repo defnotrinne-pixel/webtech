@@ -45,8 +45,8 @@ a:focus, a:hover {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    gap: 10px
-    background-color:(var(--dark));
+    gap: 10px ;
+    background-color:var(--dark);
     padding: 15px 30px;
 }
 
@@ -61,8 +61,8 @@ a:focus, a:hover {
     list-style: none;
 }
 
-.nav-links a{
-    color-white;
+.nav-links a {
+    color: white;
     text-decoration: none;
 }
 
@@ -70,7 +70,7 @@ a:focus, a:hover {
     text-decoration: underline;
 }
 
-.nav-links: a: focus {
+.nav-links a:focus {
     outline: 3px solid white;
 }
 
@@ -94,7 +94,7 @@ main{
     border-radius: 50%;
     background-color:var(--accent);
     color:white;
-    font-size: 36px;
+    font-size: 28px;
     font-weight: bold;
     display: flex;
     justify-content: center;
